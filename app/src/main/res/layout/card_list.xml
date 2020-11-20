@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:background="#d8d8d8">
+    <!--  <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginBottom="10dp"
+          android:background="#292926">
+          <Button
+              android:id="@+id/menu_id"
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:background="@drawable/menu1"
+              android:clickable="true"
+              android:paddingTop="20dp"
+              android:layout_alignParentLeft="true"
+              android:focusable="true"
+              android:layout_alignParentStart="true" />
+          <ImageView
+              android:layout_width="200dp"
+              android:layout_height="50dp"
+              android:layout_centerHorizontal="true"
+              android:src="@drawable/title"
+              android:contentDescription="@string/todo" />
+
+          <Button
+              android:id="@+id/cart_id"
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cart"
+              android:paddingTop="20dp"
+              android:clickable="true"
+              android:layout_alignParentRight="true"
+              android:focusable="true"
+              android:layout_alignParentEnd="true" />
+
+      </RelativeLayout>
+      <LinearLayout
+          android:orientation="horizontal"
+          android:weightSum="99"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:baselineAligned="false">
+
+              <ListView
+                  android:layout_weight="33"
+                  android:id="@+id/card_list1"
+                  android:layout_width="120dp"
+                  android:layout_height="wrap_content"
+                  android:drawSelectorOnTop="true"
+                  android:orientation="vertical"
+                  android:dividerHeight="10dp"
+                  android:divider = "#d8d8d8">
+              </ListView>
+          <ListView
+              android:layout_weight="33"
+              android:id="@+id/card_list2"
+              android:layout_width="120dp"
+              android:layout_height="wrap_content"
+              android:drawSelectorOnTop="true"
+              android:orientation="vertical"
+              android:dividerHeight="10dp"
+              android:paddingLeft="5dp"
+              android:divider = "#d8d8d8"
+              android:paddingStart="5dp">
+          </ListView>
+          <ListView
+              android:layout_weight="33"
+              android:id="@+id/card_list3"
+              android:layout_width="120dp"
+              android:layout_height="wrap_content"
+              android:drawSelectorOnTop="true"
+              android:orientation="vertical"
+              android:dividerHeight="10dp"
+              android:paddingLeft="5dp"
+              android:divider = "#d8d8d8"
+              android:paddingStart="5dp">
+          </ListView>
+
+
+      </LinearLayout>-->
+
+  </LinearLayout>
